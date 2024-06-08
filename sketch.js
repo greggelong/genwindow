@@ -19,6 +19,7 @@ function preload() {
 
 function setup() {
   createCanvas(900, 900);
+  pixelDensity(1);
   background(0, 0, 128);
   wind.resize(550, 0);
   greg = new Gurtle(width / 2, height, color(0));
